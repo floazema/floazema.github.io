@@ -6,3 +6,8 @@ b:hover
 {
 color: #F00;
 }
+
+img {
+    margin-top: 0;
+    margin-left: 0;
+}
