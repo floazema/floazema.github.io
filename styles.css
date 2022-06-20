@@ -1,0 +1,8 @@
+b
+{
+transition: color 1s;
+}
+b:hover
+{
+color: #F00;
+}
