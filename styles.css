@@ -1,13 +1,60 @@
-b
-{
-transition: color 1s;
-}
-b:hover
-{
-color: #F00;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
+body {
+  background-color: #f7f2f2;
+}
+
+b {
+  color:#000000
+}
+/* Navbar */
+.navbar{
+  position: fixed;
+  width: 100%;
+  background: rgb(255, 255, 255);
+  font-family: "Comic sans ms";
+  transition: all 0.3s ease;
+}
+
+.navbar .menu li{
+  list-style: none;
+  display: inline-block;
+}
+.navbar .menu li a{
+  
+  display: block;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: 25px;
+  transition: color 0.3s ease;
+  transition:  0.3s;
+}
+.navbar .menu li a:hover{
+  color: rgb(178, 84, 202);
+}
+.navbar.sticky .menu li a:hover{
+  color: #fff;
+}
+
+.menu-btn{
+  color: rgb(255, 255, 255);
+  font-size: 23px;
+  cursor: pointer;
+  display: none;
+}
+
+li{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 img {
-    margin-top: 0;
-    margin-left: 0;
+  float:left;
+  margin: 90 15px 15px 0;
+  width : 500px;
+  height : 500px;
 }
