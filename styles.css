@@ -6,17 +6,21 @@
 }
 
 body {
-  background-color: #f7f2f2;
+  background-color: rgb(37, 37, 37);
 }
 
-b {
-  color:#000000
+#about {
+  display: flex;
 }
-/* Navbar */
+
+#project {
+  display: flex;
+}
+
 .navbar{
   position: fixed;
   width: 100%;
-  background: rgb(255, 255, 255);
+  background: rgb(0, 0, 0);
   font-family: "Comic sans ms";
   transition: all 0.3s ease;
 }
@@ -25,18 +29,22 @@ b {
   list-style: none;
   display: inline-block;
 }
+
+
 .navbar .menu li a{
   
-  display: block;
-  color: rgb(0, 0, 0);
-  font-size: 30px;
+  display: flex;
+  color: rgb(106, 106, 106);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
   font-weight: 500;
   margin-left: 25px;
   transition: color 0.3s ease;
   transition:  0.3s;
 }
 .navbar .menu li a:hover{
-  color: rgb(178, 84, 202);
+  color: rgb(255, 255, 255);
 }
 .navbar.sticky .menu li a:hover{
   color: #fff;
@@ -44,17 +52,132 @@ b {
 
 .menu-btn{
   color: rgb(255, 255, 255);
-  font-size: 23px;
+  font-size: 25px;
   cursor: pointer;
   display: none;
 }
 
 li{
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
-img {
+
+b {
+  margin-top: 270px;
+  margin-left: -80px;
+  width: 60%;
+  color: rgb(147, 24, 24);
+  font-size: 60px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+c {
+  margin-top: 360px;
+  margin-left: -1150px;
+  width: 60%;
+  color: rgb(197, 187, 187);
+  font-size: 40px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+profil {
+  width: 40%;
+  border-radius: 8%;
+  border-style:outset;
   float:left;
-  margin: 90 15px 15px 0;
-  width : 500px;
+  margin-top: 200px;
+  margin-left: 200px;
+  width : 380px;
   height : 500px;
+}
+
+img:hover {
+  border-style:ridge;
+}
+
+#rectangle {
+  width: 100%;
+  height: 100px;
+  margin-top: 50px;
+  background-color: black;
+}
+
+#rectangle3 {
+  width: 100%;
+  height: 200px;
+  margin-top: 0px;
+  background-color: black;
+}
+
+#rectangle2 {
+  width: 100%;
+  height: 100px;
+  margin-top: 1650px;
+  background-color: black;
+}
+
+.cv {
+  align-content: center;
+  border-radius: 8%;
+  border-style:outset;
+  float:left;
+  width : 1000px;
+  height : 1410px;
+  margin-left: 450px;
+}
+
+
+img {
+  width: 40%;
+  margin: 170px;
+  border-radius: 8%;
+  border-style:outset;
+  float:left;
+  width : 380px;
+  height : 500px;
+}
+
+
+.runner {
+  margin-left: 65px;
+  margin-top: 60px;
+  width: 40%;
+  border-radius: 5%;
+  border-style:outset;
+  float:left;
+  width : 750px;
+  height : 375px;
+}
+.rpg {
+  width: 40%;
+  margin-left: 0px;
+  margin-top: 60px;
+  border-radius: 5%;
+  border-style:outset;
+  float:left;
+  width : 750px;
+  height : 375px;
+}
+.minesweeper {
+  width: 40%;
+  margin-left: 65px;
+  margin-top: -30px;
+  border-radius: 5%;
+  border-style:outset;
+  float:left;
+  width : 750px;
+  height : 375px;
+}
+.defender {
+  width: 40%;
+  margin-left: 0px;
+  margin-top: -30px;
+  border-radius: 5%;
+  border-style:outset;
+  float:left;
+  width : 750px;
+  height : 375px;
+}
+
+d {
+  color: #fff;  
+  font-size: 30px;
 }
