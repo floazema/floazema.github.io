@@ -53,4 +53,20 @@
     text-align: center;
     padding: 10px 0;
   }
+
+  .about-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
   
+  .about-text {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .about-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%; /* Pour arrondir l'image (si nécessaire) */
+  }
